@@ -1,0 +1,21 @@
+{
+    "name": "Favicon Generator",
+    "version": "1.0.0",
+    "description": "Favicon",
+    "depecrated": false,
+    "main": "index.js",
+    "type": "module",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "fs-extra": "^11.3.0",
+        "png-to-ico": "^2.1.8",
+        "sharp": "^0.33.5"
+    },
+    "author": "NyxObscura"
+}
